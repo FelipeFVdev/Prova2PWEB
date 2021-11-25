@@ -1,0 +1,79 @@
+body{
+    background-color: #e88731;
+    color: white;
+}
+
+#topoContainer{
+    background-color: #27a657;
+}
+#btnBuscar{
+    background-color: #fecc68;
+}
+#btnBuscar:hover{
+    background-color: #98112e;
+}
+
+#logo{
+    width: 50px;
+    height: 50px;
+}
+#logo:hover{
+    opacity: 0.8;
+}
+
+.section-pizza {
+    margin-right: 1.7%;
+}
+i{
+    color: white;
+}
+.pizza-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.pizza-showcase li {
+    display: flex;
+    float: left;
+    width: 50%;
+
+}
+
+.pizza-photo {
+    margin: 2.5rem 2.5rem;
+    overflow: hidden;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.pizza-photo img {
+    opacity: 0.8;
+    position: relative;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.pizza-photo img:hover {
+    opacity: 1;
+    transform: scale(1.04);
+}
+
+.nomepiz {
+    margin: auto 0 auto 0;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+
+}
+.nomepiz:hover {
+    border-bottom: 2px solid red;
+    transition: border-bottom 1s;
+    
+}
+
+@media screen and (max-width: 800px) and (min-width: 0px){
+    .pizza-showcase li {
+        width: 100%;
+    }
+}

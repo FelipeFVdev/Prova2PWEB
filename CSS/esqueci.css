@@ -1,0 +1,59 @@
+body{
+    background-color: #e88731;
+    color: white;
+}
+
+#btnBuscar{
+    background-color: #fecc68;
+}
+
+#btnBuscar:hover{
+    background-color: #98112e;
+}
+i{
+    color: white;
+}
+
+h1, h2 {
+    color: white;
+    text-align: center;
+}
+#logoCadastro:hover{
+    opacity: 0.8;
+}
+.pizzastipos {
+    text-align: center;
+    width: 40%;
+    vertical-align: middle;
+    margin: 0 auto;
+    padding: auto;
+}
+
+#logoCadastro{
+    width: 50px;
+    height: 50px;
+}
+
+.recsenha {
+    text-align: center;
+    width: 40%;
+    vertical-align: middle;
+    margin: 0 auto;
+    padding: auto;
+    background-color: #98112e;
+    border-radius: 15px;
+}
+.recsenha button{
+    background-color: #335f44;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.recsenha button:hover{
+    background-color: green;
+}
+
